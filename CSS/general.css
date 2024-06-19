@@ -47,6 +47,8 @@ medium: 11px
 html{
     font-size:62.5%;
     overflow-x: hidden;
+    /* Lets make this work via javascript... more compatible with all browsers */
+    /* scroll-behavior: smooth; */
 }
 
 *{
