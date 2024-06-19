@@ -148,3 +148,22 @@ The issue: now huge accesibility problems exist for users who need to increase o
 in other words 62.5% of the default 16 is 10.
 Doing this will now respect the user's desired font-size.
 
+## what is media queries work
+with max width(defines maximum width at which media query will apply)
+checks if media query is <=lets say 600px
+if it is, CSS code will apply
+
+if we have multiple applicable media queries, they all will apply
+if they have conflicting css queries, the last one will apply
+
+## How to Select Breakpoints? 
+breakpoint: px value we want to put in our media query, where we want media query to activate
+# Strategies for selecting breakpoints:
+Bad: Based on popular devices
+we dont do this bc this ignores everybody else
+makes updatability really hard... what happens in 4 months when there is a new iphone
+
+Good: Based on screen width ranges
+
+Perfect: When design breaks down
+Test for when design looks unacceptable, then make a breakpoint there.

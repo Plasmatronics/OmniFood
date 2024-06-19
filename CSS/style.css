@@ -12,6 +12,7 @@
     to be sticky... so lets make the height fixed */
     height: 9.6rem;
     padding: 0 4.8rem;
+    position: relative;
 }
 
 .logo{
@@ -24,7 +25,7 @@
 .main-nav-list{
     list-style: none;
     display: flex;
-    gap: 3.2rem;
+    gap: 4.8rem;
     align-items: center;
 }
 
@@ -56,6 +57,24 @@
     background-color: #cf711f;
 }
 
+/* MOBILE NAVIGATION */
+.btn-mobile-nav{
+    border:none;
+    background: none;
+    cursor: pointer;
+
+    display: none;
+}
+
+.icon-mobile-nav{
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+}
+
+.icon-mobile-nav[name='close-outline']{
+    display: none;
+}
 
 /* **************************************************************** */
 /* Hero Section */
